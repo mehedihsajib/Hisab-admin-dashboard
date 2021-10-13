@@ -1,0 +1,129 @@
+.widget {
+    margin: 2rem;
+    padding: 2rem;
+    box-shadow: $shadow-primary;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+    &__content {
+        padding: 2rem;
+        display: flex;
+    }
+
+    h3 {
+        margin-bottom: 3rem;
+    }
+
+    h4 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+    // Active users
+    &__active-users {
+        flex: 1;
+        margin-right: 3rem;
+    }
+
+    &__active-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    &__active-item--img {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+    &__btn {
+        font-size: $b-font-sm;
+        color: $color-dark;
+        padding: 1rem 1.5rem;
+        background-color: $color-light-gray;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+
+        .icon {
+            font-size: 2rem;
+            margin-right: 5px;
+        }
+    }
+
+    &__btn.Approved {
+        background-color: #effaf2;
+        color: #3bb077;
+    }
+
+    &__btn.Declined {
+        color: #d95087;
+        background-color: #fff0f1;
+    }
+
+    &__btn.Pending {
+        color: #2a7ade;
+        background-color: #ebf1fe;
+    }
+
+    &__active-item--position {
+        font-size: $b-font-sm;
+    }
+
+    &__transaction-list {
+        flex: 2;
+    }
+
+    // Transactions
+    .transaction__table {
+        width: 100%;
+
+        &-head {
+            color: $color-dark;
+            padding-bottom: 1rem;
+        }
+    }
+
+    .transaction {
+        td {
+            height: 200px !important;
+        }
+        &__data-user {
+            height: 70px;
+            vertical-align: center;
+        }
+        &__data-user--avatar {
+            width: 5rem;
+            height: 5rem;
+            margin-right: 3rem;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+
+        &__data-user--name {
+            font-weight: 600;
+        }
+
+        &__data-date,
+        &__data-amount {
+            font-weight: 300;
+        }
+
+        &__table-row {
+        }
+    }
+}

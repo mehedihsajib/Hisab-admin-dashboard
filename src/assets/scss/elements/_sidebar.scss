@@ -1,0 +1,53 @@
+.wrapper {
+    display: flex;
+}
+
+.main-content {
+    height: 100%;
+    flex: 4;
+}
+
+.sidebar {
+    background-color: $color-white;
+    min-height: calc(100vh - 7rem);
+    flex: 1;
+    position: sticky;
+    top: 7rem;
+    left: 0;
+    margin-top: 3rem;
+
+    &__content {
+        // padding: 2rem;
+        h3 {
+            padding: 2rem;
+        }
+    }
+
+    h4 {
+        font-size: $b-font-sm;
+        padding: 1rem 2rem;
+        color: #999;
+    }
+
+    &__list-item {
+        display: flex;
+        cursor: pointer;
+    }
+
+    &__list-link {
+        width: 100%;
+        font-size: 1.6rem;
+        padding: 1rem 2rem;
+        color: $color-dark;
+
+        &:hover {
+            background-color: #f9f9f9;
+            color: $color-primary;
+        }
+    }
+
+    &__list-icon {
+        font-size: 2rem;
+        margin-right: 3rem;
+    }
+}

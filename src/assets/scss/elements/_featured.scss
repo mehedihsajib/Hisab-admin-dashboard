@@ -1,0 +1,60 @@
+.featured {
+    padding: 2rem;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        box-shadow: $shadow-primary;
+        padding: 3rem;
+        flex: 1;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+
+        &:not(:last-child) {
+            margin-right: 3rem;
+        }
+    }
+
+    &__item-money {
+        margin-top: 3rem;
+        color: $color-secondary;
+    }
+
+    &__item-money--dollar {
+        font-size: $h-font-md;
+        margin-top: 2rem;
+    }
+
+    &__item-money--rate {
+        margin-left: 2rem;
+        display: inline-block;
+        color: $color-dark;
+    }
+
+    &__item-icon {
+        color: green;
+    }
+
+    &__item-icon--positive {
+        color: green;
+        margin-left: 1rem;
+        font-size: 12px;
+    }
+
+    &__item-icon--negative {
+        color: red;
+        margin-left: 1rem;
+        font-size: 12px;
+    }
+
+    &__item-text {
+        display: inline-block;
+        margin-top: 1rem;
+        font-size: $b-font-sm;
+    }
+}

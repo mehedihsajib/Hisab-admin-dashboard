@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+
+//Font Family
+$body-font: "Poppins", sans-serif;
+$heading-font: "Poppins", sans-serif;
+$font-awesome: "Font Awesome 5 Pro";
+
+// Colors
+$color-primary: #f65365;
+$color-secondary: #8d7cfb;
+$color-tertiary: #ffca60;
+
+$color-dark: #474d58;
+$color-light-gray: #f1f1f1;
+$color-black: #000;
+$color-white: #fff;
+
+// Fonts Weight
+$font-light: 300;
+$font-regular: 400;
+$font-medium: 500;
+$font-semi-bold: 600;
+$font-bold: 700;
+$font-extra-bold: 800;
+
+//Shadows
+$shadow-primary: 0px 5px 10px rgba(37, 47, 63, 0.1);
+$shadow-light: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+$shadow-dark: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+
+//transition easing
+$transition: 0.3s;
+
+// Body Font Sizes
+$b-font-xsm: 12px;
+$b-font-sm: 14px;
+$b-font-normal: 16px;
+$b-font-md: 18px;
+$b-font-lg: 20px;
+$b-font-xl: 22px;
+
+// Body Font Sizes
+$h-font-xsm: 24px;
+$h-font-sm: 30px;
+$h-font-normal: 40px;
+$h-font-md: 50px;
+$h-font-lg: 60px;
+$h-font-xl: 80px;
+
+//Line Height
+$line-height-1: 1.3; //16px
+$line-height-2: 1.5; //24px
+$line-height-3: 1.6; //22px
+$line-height-4: 1.67; //28px
+
+//===== Social Colors =====//
+$facebook: #3b5998;
+$twitter: #00acee;
+$google-plus: #dd4b39;
+$pinterest: #c8232c;
+$linkedin: #0e76a8;
+$flickr: #ff0084;
+$google: #dd4b39;
+$youtube: #cd201f;
+
+// Layouts
+$smlg-device: "only screen and (max-width: 1199px)";
+$extra-device: "only screen and (min-width: 1600px) and (max-width: 1919px)";
+$laptop-device: "only screen and (min-width: 1200px) and (max-width: 1599px)";
+$lg-layout: "only screen and (min-width: 992px) and (max-width: 1199px)";
+$md-layout: "only screen and (min-width: 768px) and (max-width: 991px)";
+$sm-layout: "only screen and (max-width: 767px)";
+$large-mobile: "only screen and (max-width: 575px)";
+/* container 450px*/
+$small-mobile: "only screen and (max-width: 479px)";
+/* container 300px*/
