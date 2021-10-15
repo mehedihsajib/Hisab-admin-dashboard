@@ -1,0 +1,145 @@
+.editUser {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        margin: 3rem 2rem;
+    }
+
+    &__add-btn {
+        font-size: 1.6rem;
+        padding: 1rem 1.5rem;
+        background-color: $color-secondary;
+        color: $color-white;
+        cursor: pointer;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left-content {
+        flex: 2;
+        margin: 3rem 2rem;
+        padding: 2rem;
+        box-shadow: $shadow-primary;
+        border-radius: 5px;
+    }
+
+    &__right-content {
+        padding: 2rem;
+        flex: 3;
+        display: flex;
+        justify-content: space-between;
+        margin: 3rem 2rem;
+        box-shadow: $shadow-primary;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+
+    &__profile {
+        display: flex;
+        align-items: center;
+    }
+
+    &__profile-avatar {
+        height: 5rem;
+        width: 5rem;
+        margin-right: 2rem;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+    &__profile-name {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    &__profile-title {
+        font-size: $b-font-sm;
+    }
+
+    &__info {
+        margin-top: 2rem;
+    }
+
+    &__info-title {
+        font-size: $b-font-sm;
+        color: #999;
+        margin-bottom: 1.5rem;
+    }
+
+    &__info-items {
+        margin-bottom: 2rem;
+    }
+
+    &__info-item {
+        color: $color-dark;
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+
+    &__info-icon {
+        font-size: 2rem;
+        margin-right: 1rem;
+    }
+
+    // Form
+    &__form {
+        flex: 3;
+    }
+
+    &__form-input {
+        padding: 1rem;
+        margin-bottom: 2rem;
+        border-bottom: 1px solid $color-dark;
+
+        &::placeholder {
+            font-size: $b-font-sm;
+        }
+    }
+
+    &__upload-img {
+        margin-right: 3rem;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+
+    &__upload-icon {
+        font-size: 3rem;
+        color: $color-secondary;
+        cursor: pointer;
+    }
+
+    &__form-update {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    &__form-btn {
+        padding: 1rem 1.5rem;
+        background-color: $color-primary;
+        color: $color-white;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+}

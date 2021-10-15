@@ -16,26 +16,26 @@ function Sidebar() {
             <div className="sidebar__content">
                 <h4>Dashboard</h4>
                 <ul className="sidebar__list">
-                    <SidebarItem icon={<AiOutlineHome />} text="Home" />
-                    <SidebarItem icon={<IoAnalyticsSharp />} text="Analytics" />
-                    <SidebarItem icon={<IoTrendingUpSharp />} text="Sales" />
+                    <SidebarItem icon={<AiOutlineHome />} text="Home" link='/' />
+                    <SidebarItem icon={<IoAnalyticsSharp />} text="Analytics" link='/analytics' />
+                    <SidebarItem icon={<IoTrendingUpSharp />} text="Sales" link='/sales' />
                 </ul>
                 <h4>Quick Menu</h4>
                 <ul className="sidebar__list">
-                    <SidebarItem icon={<AiOutlineUser />} text="User" />
-                    <SidebarItem icon={<IoBasketOutline />} text="Products" />
-                    <SidebarItem icon={<AiOutlineDollarCircle />} text="Transaction" />
-                    <SidebarItem icon={<IoMdStats />} text="Reports" />
+                    <SidebarItem icon={<AiOutlineUser />} text="User" link='/users' />
+                    <SidebarItem icon={<IoBasketOutline />} text="Products" link='/products' />
+                    <SidebarItem icon={<AiOutlineDollarCircle />} text="Transaction" link='/transaction' />
+                    <SidebarItem icon={<IoMdStats />} text="Reports" link='/reports' />
                 </ul>
                 <h4>Notifications</h4>
                 <ul className="sidebar__list">
-                    <SidebarItem icon={<AiOutlineMail />} text="Email" />
-                    <SidebarItem icon={<AiOutlineMessage />} text="Messages" />
+                    <SidebarItem icon={<AiOutlineMail />} text="Email" link='/email' />
+                    <SidebarItem icon={<AiOutlineMessage />} text="Messages" link='/message' />
                 </ul>
                 <h4>Others</h4>
                 <ul className="sidebar__list">
-                    <SidebarItem icon={<IoBriefcaseOutline />} text="Manage" />
-                    <SidebarItem icon={<AiOutlineSetting />} text="Settings" />
+                    <SidebarItem icon={<IoBriefcaseOutline />} text="Manage" link='/manage' />
+                    <SidebarItem icon={<AiOutlineSetting />} text="Settings" link='/settings' />
                 </ul>
             </div>
         </div>

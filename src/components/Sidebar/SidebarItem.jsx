@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function SidebarItem({ icon, text }) {
+function SidebarItem({ icon, text, link }) {
     return (
         <>
             <li className="sidebar__list-item">
-                <a href="/" className="sidebar__list-link">
+                <Link to={link} className="sidebar__list-link">
                     <span className="sidebar__list-icon">{icon}</span>
                     {text}
-                </a>
+                </Link>
             </li>
         </>
     );
